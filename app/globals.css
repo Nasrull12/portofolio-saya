@@ -1,6 +1,10 @@
+/* app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tambahkan styling tambahan di sini */
+
 
 :root {
   --background: #ffffff;
