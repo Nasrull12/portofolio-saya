@@ -1,18 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@400;700&display=swap");
+
 :root {
   --background: #ffffff; /* Warna latar belakang default */
   --foreground: #171717; /* Warna font default */
-  --font-main: 'Pacifico', cursive; /* Font utama */
-  --font-heading: 'Playfair Display', serif; /* Font untuk heading */
+  --font-main: "Pacifico", cursive; /* Font utama */
+  --font-heading: "Playfair Display", serif; /* Font untuk heading */
 }
-
 
 body {
   font-family: var(--font-main); /* Gunakan font Pacifico untuk body */
-
   color: var(--foreground);
   background: var(--background);
   transition: color 0.3s ease, background 0.3s ease; /* Animasi transisi */
@@ -86,8 +85,9 @@ body {
 
 .card-description {
   margin-top: 10px;
-  font-size: 0,85rem;
+  font-size: 0.85rem; /* Perbaiki format koma */
 }
+
 /* Tambahkan aturan berikut di globals.css */
 .button-top-left {
   position: fixed;

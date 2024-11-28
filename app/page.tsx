@@ -32,7 +32,7 @@ export default function Page() {
     <div className="relative">
       <section className="h-screen flex items-center justify-center flex-col">
         <div className="text-center">
-          <h1 className="text-5xl font-bold gradient-text">HI, I'am Nassrullaah</h1>
+          <h1 className="text-5xl font-bold gradient-text">HI, Iam Nassrullaah</h1>
           <p className="mt-4 text-xl gradient-text">Nice to meet you</p>
 
           {/* Tombol untuk menampilkan card */}
